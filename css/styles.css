@@ -1,6 +1,5 @@
 html, body {
     width: 100vw;
-    height: 100vh;
     display: flex;
     background-color: hsl(30, 54%, 90%); 
     margin: 0;
@@ -57,7 +56,7 @@ html, body {
 /* For large screens */
 @media (min-width: 1024px) {
     .card {
-        margin: 48px;
+        margin: 96px;
         padding: 40px;
     }
 
