@@ -1,7 +1,11 @@
 html, body {
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    background-color: hsl(30, 18%, 87%); 
+    background-color: hsl(30, 54%, 90%); 
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
@@ -11,19 +15,70 @@ html, body {
     margin: 48px 0 48px 0;
     display: flex;
     box-sizing: border-box;
-    max-width: 52%;
+    max-width: 800px;
     flex-direction: column;
+    width: 100%;
 }
 
-img {
+
+/* For small screens */
+@media (min-width: 200px) {
+    .card {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .card-inf {
+        padding: 0 24px 0 24px;
+    }
+
+    img {
+        border-radius: 0px;
+    }
 }
+
+/* For medium screens */
+@media (min-width: 600px) {
+    .card {
+        margin: 24px;
+        padding: 40px;
+    }
+
+    .card-inf {
+        padding: 0px;
+    }
+
+    img {
+        border-radius: 12px;
+    }
+
+}
+
+/* For large screens */
+@media (min-width: 1024px) {
+    .card {
+        margin: 48px;
+        padding: 40px;
+    }
+
+    .card-inf {
+        padding: 0px;
+    }
+
+    img {
+        border-radius: 20px;
+    }
+}
+
 
 h1, h2 {
     font-family: 'Young Serif', sans-serif;
 }
 h1 {
     font-weight: 400;
-    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 110%;
 }
 
 p, h3, li, th, td {
@@ -39,21 +94,35 @@ p, li {
 
 p {
     font-size: 16px;
+    margin-top: 0px;
+}
+
+.para-1 {
+    margin-bottom: 24px;
+}
+
+.para-2 {
+    margin-bottom: 12px;
 }
 
 h3 {
     color: hsl(332, 51%, 32%);
     margin: 0px;
+    font-size: 18px;
+    margin-bottom: 12px;
 }
 
 .list-container {
     background-color: hsl(323, 100%, 98%);
     padding: 24px;
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 ul, ol {
-    padding-left: 24px;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 
 ul li::marker {
@@ -74,13 +143,14 @@ li:last-child {
 h2 {
     color: hsl(14, 45%, 36%);
     letter-spacing: 1px;
+    margin-top: 0px;
 }
 
 hr {
     border: none;
     height: 1px;
     background-color: hsl(0, 0%, 88%);
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 ol li::marker {
@@ -90,11 +160,12 @@ ol li::marker {
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 th, td {
     border-bottom: 1px solid hsl(0, 0%, 88%);
-    padding: 14px 0 14px 0;
+    padding: 10px 0 10px 0;
     text-align: left;
     width: 50%;
 }
@@ -106,10 +177,10 @@ th {
 }
 
 td {
-    font-weight: 600;
+    font-weight: 700;
     color: hsl(14, 45%, 36%);
 }
 
-tr:last-child {
-    border-bottom: 0;
+.th-last, .td-last {
+    border-bottom: 0px;
 }
