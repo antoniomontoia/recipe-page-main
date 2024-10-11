@@ -19,64 +19,6 @@ html, body {
     width: 100%;
 }
 
-
-/* For small screens */
-@media (min-width: 200px) {
-    h1 {
-        font-size: 34px;
-    }
-    
-    .card {
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .card-inf {
-        padding: 0 24px 0 24px;
-    }
-
-    img {
-        border-radius: 0px;
-    }
-}
-
-/* For medium screens */
-@media (min-width: 600px) {
-    h1 {
-        font-size: 40px;
-    }
-    .card {
-        margin: 24px;
-        padding: 40px;
-    }
-
-    .card-inf {
-        padding: 0px;
-    }
-
-    img {
-        border-radius: 12px;
-    }
-
-}
-
-/* For large screens */
-@media (min-width: 1024px) {
-    .card {
-        margin: 96px;
-        padding: 40px;
-    }
-
-    .card-inf {
-        padding: 0px;
-    }
-
-    img {
-        border-radius: 20px;
-    }
-}
-
-
 h1, h2 {
     font-family: 'Young Serif', sans-serif;
 }
@@ -189,4 +131,60 @@ td {
 
 .th-last, .td-last {
     border-bottom: 0px;
+}
+
+/* For small screens */
+@media (min-width: 200px) {
+    h1 {
+        font-size: 34px;
+    }
+    
+    .card {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .card-inf {
+        padding: 0 24px 0 24px;
+    }
+
+    img {
+        border-radius: 0px;
+    }
+}
+
+/* For medium screens */
+@media (min-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+    .card {
+        margin: 24px;
+        padding: 40px;
+    }
+
+    .card-inf {
+        padding: 0px;
+    }
+
+    img {
+        border-radius: 12px;
+    }
+
+}
+
+/* For large screens */
+@media (min-width: 1024px) {
+    .card {
+        margin: 96px;
+        padding: 40px;
+    }
+
+    .card-inf {
+        padding: 0px;
+    }
+
+    img {
+        border-radius: 20px;
+    }
 }

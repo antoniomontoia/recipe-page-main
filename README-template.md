@@ -41,52 +41,28 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Semantic HTML: I learned the importance of using semantic HTML elements to enhance the accessibility and readability of my code. By utilizing elements like article, and section, I was able to create a more meaningful and accessible structure for my web pages.
 
-To see how you can add code snippets, see below:
+Working with Lists: I deepened my understanding of how to effectively use lists in HTML. I explored both ordered and unordered lists to present information in a clear and concise way.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Utilizing the table Element: I gained hands-on experience with the table element, which can be quite tricky if you are new to it. 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Introduction to Media Queries: I was introduced to working with media queries, which allowed me to create responsive designs that adapt to different screen sizes.
 
 ### Continued development
 
-Semantic HTML: I learned the importance of using semantic HTML elements to enhance the accessibility and readability of my code. By utilizing elements like <article>, and <section>, I was able to create a more meaningful and accessible structure for my web pages.
-Working with Lists: I deepened my understanding of how to effectively use lists in HTML. I explored both ordered (<ol>) and unordered (<ul>) lists to present information in a clear and concise way.
-Utilizing the <table> Element: I gained hands-on experience with the <table> element, which can be quite tricky if you are new to it. 
-Introduction to Media Queries: I was introduced to working with media queries, which allowed me to create responsive designs that adapt to different screen sizes.
+As I move forward, I am eager to deepen my understanding of responsive design and how to ensure that every element on a web page adapts to different screen sizes.
+
+Exploring rem Units: I would like to experiment with rem units for sizing elements, as they provide a more scalable approach compared to pixels.
+
+Advanced Media Queries: I aim to further explore media queries to refine my responsive design skills. I want to learn how to apply different styles not only based on screen width but also on other factors such as orientation and resolution.
 
 ### Useful resources
 
-- (https://www.semrush.com/blog/semantic-html5-guide) - This helped me with structuring the HTML code. It was quite intuitive and visual.
-- [Example resource 2](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker) - This helped understanding how to style bullet points.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Semantic HTML Guide](https://www.semrush.com/blog/semantic-html5-guide) - This helped me with structuring the HTML code. It was quite intuitive and visual.
+- [Marker Pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker) - This helped understanding how to style bullet points.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@antoniomontoia](https://www.frontendmentor.io/profile/antoniomontoia)
+- Dribbble - [@franissimo](https://www.twitter.com/franissimo)
