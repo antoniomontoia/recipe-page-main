@@ -29,7 +29,7 @@ h1 {
     line-height: 110%;
 }
 
-p, h3, li, th, td {
+p, h2, li, th, td {
     font-family: 'Outfit', sans-serif;
     line-height: 150%;
     font-size: 16px;
@@ -56,7 +56,7 @@ p {
 h2 {
     color: hsl(332, 51%, 32%);
     margin: 0px;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 12px;
 }
 
@@ -93,6 +93,8 @@ h3 {
     letter-spacing: .5px;
     margin-top: 0px;
     font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 20px;
 }
 
 hr {
