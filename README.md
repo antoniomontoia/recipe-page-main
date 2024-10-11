@@ -14,9 +14,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -26,8 +23,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: (https://github.com/antoniomontoia/recipe-page-main)
-- Live Site URL: (https://antoniomontoia.github.io/recipe-page-main/)
+- Solution URL: [Solution](https://github.com/antoniomontoia/recipe-page-main)
+- Live Site URL: [Live Site](https://antoniomontoia.github.io/recipe-page-main/)
 
 ## My process
 
