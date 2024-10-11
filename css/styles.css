@@ -22,6 +22,10 @@ html, body {
 
 /* For small screens */
 @media (min-width: 200px) {
+    h1 {
+        font-size: 34px;
+    }
+    
     .card {
         margin: 0px;
         padding: 0px;
@@ -38,6 +42,9 @@ html, body {
 
 /* For medium screens */
 @media (min-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
     .card {
         margin: 24px;
         padding: 40px;
