@@ -90,8 +90,9 @@ li:last-child {
 
 h2 {
     color: hsl(14, 45%, 36%);
-    letter-spacing: 1px;
+    letter-spacing: .5px;
     margin-top: 0px;
+    font-weight: 500;
 }
 
 hr {
